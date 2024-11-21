@@ -29,7 +29,7 @@ document.getElementById('api-form').addEventListener('submit', function (e) {
 });
 
 function sendPostRequest(formData) {
-    fetch('http://localhost:5000/bfhl', {
+    fetch('https://bjaj-finserv-fsd-rest-api.vercel.app/bfhl', {
         method: 'POST',
         headers: {
             'Content-Type': 'application/json'
