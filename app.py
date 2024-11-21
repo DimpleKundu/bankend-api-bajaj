@@ -5,7 +5,7 @@ import base64
 import mimetypes
 
 app = Flask(__name__)
-
+CORS(app)
 @app.route('/bfhl', methods=['GET', 'POST'])
 def bfhl():
     
